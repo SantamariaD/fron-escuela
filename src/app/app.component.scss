@@ -1,0 +1,22 @@
+.contenedor-principal {
+    display: flex;
+    width: 100%;
+    background-color: #020b13;
+}
+
+#sidebar {
+    width: 65px;
+    top: 0;
+    left: 0;
+    height: 100vH;
+    z-index: 999;
+    background-color: #03121f;
+    border-right: solid 1px #0d3757;
+    color: #fff;
+    transition: all 0.7s;
+    position: fixed!important;
+}
+
+#sidebar:hover {
+    width: 230px;
+}
